@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; form-action 'none'; base-uri 'none'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Souvik Mukhopadhyay — Computer Science Expert & AI Data Trainer</title>
+  <meta name="description" content="Souvik Mukhopadhyay — International Informatics Olympiad medalist, MCA, Computer Science expert and AI data trainer based in Durgapur, India." />
+  <meta name="author" content="Souvik Mukhopadhyay" />
+  <meta name="theme-color" content="#0b0b10" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Souvik Mukhopadhyay — Computer Science Expert & AI Data Trainer" />
+  <meta property="og:description" content="Olympiad medalist, MCA, and AI data trainer. Explore my work, skills — and take the CS challenge." />
+  <meta property="og:image" content="https://xsouvik.github.io/assets/photo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://xsouvik.github.io/" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Josefin+Sans:wght@300;400;600&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+  <a class="skip" href="#" data-skip>Skip to content</a>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="fallback-bg" aria-hidden="true"></div>
+  <div class="shade" aria-hidden="true"></div>
+
+  <header class="top">
+    <a class="logo" href="#home" data-go="0" aria-label="Home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="16" r="6" fill="var(--red)"/></svg>
+      <span class="logo-text"></span>
+    </a>
+    <nav class="links" aria-label="Sections"></nav>
+    <div class="top-right">
+      <span class="avail"><i></i>Available for work</span>
+      <div class="socials"></div>
+      <button class="sound-btn" aria-label="Turn sound on" aria-pressed="false" title="Sound">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="mute" d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="cta magnetic" data-go="contact-panel">Hire me</button>
+      <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="stage" id="main">
+    <div class="hero">
+      <div class="title-wrap">
+        <div class="disc" aria-hidden="true"></div>
+        <div class="kanji" lang="ja"></div>
+        <h1 class="title" aria-live="polite"></h1>
+      </div>
+      <p class="tagline"></p>
+      <div class="hero-actions">
+        <button class="explore magnetic">Explore <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <div class="hello-chip" aria-hidden="true"><img alt="" /><span></span></div>
+    </div>
+  </main>
+
+  <aside class="counter" aria-hidden="true">
+    <span class="cur">01</span><span class="bar"><i></i></span><span class="tot">06</span>
+  </aside>
+  <div class="scroll-hint" aria-hidden="true"><span>Scroll</span><i></i></div>
+
+  <nav class="thumbs" aria-label="Slides"></nav>
+
+  <section class="panel" aria-modal="true" role="dialog" aria-labelledby="panel-title" hidden>
+    <div class="panel-inner">
+      <button class="panel-close" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <div class="panel-content"></div>
+    </div>
+  </section>
+
+  <div class="toasts" role="status" aria-live="polite"></div>
+  <canvas class="confetti" aria-hidden="true"></canvas>
+  <div id="print-cv"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="loader" aria-hidden="true">
+    <div class="loader-disc"></div>
+    <div class="loader-name"></div>
+    <div class="loader-pct">0%</div>
+  </div>
+  <noscript><div class="noscript">This portfolio needs JavaScript. Souvik Mukhopadhyay — Computer Science Expert &amp; AI Data Trainer.</div></noscript>
+  <script src="site.js"></script>
+</body>
+</html>
